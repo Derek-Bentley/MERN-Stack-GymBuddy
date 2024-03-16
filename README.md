@@ -1,7 +1,9 @@
 ## Gym Buddy Exercise Log
 User completes a form with workout details and it is logged along with its time of being logged.
-<img src="images/homescreen.png" alt="Home Image" width="200"/>
-<img src="images/loggedexercise.png" alt="Home Image" width="200"/>
+<img width="1485" alt="image" src="https://github.com/Derek-Bentley/MERN-Stack-GymBuddy/assets/142171071/335805ad-7671-4ba8-9c87-428ba8a2da50">
+
+<img width="1485" alt="image" src="https://github.com/Derek-Bentley/MERN-Stack-GymBuddy/assets/142171071/839d86ab-04d4-47c0-adbd-9c3c832a1bb5">
+
 
 
 
