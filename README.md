@@ -12,7 +12,7 @@ User completes a form with workout details and it is logged along with its time 
 ## Functionality (Based on MERN Stack)
 MongoDB: This would be used to store the exercise data, such as workout types, loads, reps, and timestamps.
 Express.js and Node.js: These would handle the backend logic, such as receiving data from the front end, interacting with the database, and sending back responses.
-React.js: This is used for building the user interface. The page likely includes stateful 
+React.js: This is used for building the user interface. 
 
 ### `npm start`
 Run npm start in the Frontend directory and Backend Directory
