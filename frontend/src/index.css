@@ -1,0 +1,124 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Layout Base */
+:root {
+  --primary: #4b8b3b; /* Updated to a sleeker shade if needed */
+  --error: #cc0000;
+  --background: #f0eee9;
+  --text-color: #333;
+  --accent: #606060; /* New accent color for a modern touch */
+}
+
+body {
+  background: var(--background);
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
+
+/* Header */
+header {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center align the items */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header a {
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 0 15px; /* Spacing between links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+header a:hover {
+  color: var(--primary); /* Hover effect */
+}
+
+/* Navigation and Pages Styling */
+.pages {
+  display: flex;
+  justify-content: center; /* Align pages in center */
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* Modern Touches for Homepage */
+.home {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  padding: 20px;
+}
+
+.workout-details {
+  background: #fff;
+  border-radius: 8px; /* More pronounced rounded corners */
+  margin: 0;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Softer shadow */
+  transition: transform 0.3s ease; /* Adds interaction */
+}
+
+.workout-details:hover {
+  transform: translateY(-5px); /* Slight raise effect on hover */
+}
+
+/* Forms and Inputs with a Modern Flair */
+input, button, label {
+  font-family: 'Roboto', sans-serif;
+}
+
+input, button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid var(--accent);
+  transition: border-color 0.3s ease;
+}
+
+input:focus, button:focus {
+  border-color: var(--primary);
+  outline: none; /* Removes default focus outline */
+}
+
+button {
+  background: var(--primary);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+/* Error Styling */
+div.error, input.error {
+  background: #fff0f0;
+  border: 1px solid var(--error);
+  color: var(--error);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+input.error {
+  border-color: var(--error);
+}
+
+/* Ensuring Modern Responsiveness */
+@media (max-width: 768px) {
+  .home {
+    grid-template-columns: 1fr; /* Stack items on smaller screens */
+  }
+
+  header .container, .pages {
+    flex-direction: column; /* Stack nav items vertically on smaller screens */
+    align-items: center;
+  }
+}
