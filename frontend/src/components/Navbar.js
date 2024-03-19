@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container">
         <Link to="/">
         <img src={logoImage} alt="Gym Bro Logo" style={{ height: '150px' }} />
-          <h1>Gym Brro</h1>
+          <h1>Gym Bro</h1>
         </Link>
       </div>
     </header>
